@@ -1,7 +1,5 @@
 package com.example.flashlight;
 
-import static java.lang.Boolean.TRUE;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
