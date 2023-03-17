@@ -1,4 +1,4 @@
-package com.example.flashlight;
+package com.example.flashlight1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         state = true;
                         imageButton.setImageResource(R.drawable.torch_on);
+                        Toast.makeText(MainActivity.this, "Flashlight is turned ON", Toast.LENGTH_SHORT).show();
                     } catch (CameraAccessException e) {
                     }
                 } else {
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         state = false;
                         imageButton.setImageResource(R.drawable.torch_off);
+                        Toast.makeText(MainActivity.this, "Flashlight is turned OFF", Toast.LENGTH_SHORT).show();
                     } catch (CameraAccessException e) {
                     }
                 }
