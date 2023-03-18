@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.flashlight1'
+    namespace 'com.example.phoneflashlight11'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.flashlight1"
+        applicationId "com.example.phoneflashlight11"
         minSdk 21
         targetSdk 33
         versionCode 5
